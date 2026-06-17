@@ -32,7 +32,7 @@ User → Streamlit → LangChain → ConversationBufferWindowMemory → Gemini A
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/ai-chat-memory.git
+   git clone https://github.com/bogamahesh/ai-chat-memory.git
    cd ai-chat-memory
    ```
 
