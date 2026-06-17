@@ -69,7 +69,7 @@ User → Streamlit → LangChain → ConversationBufferWindowMemory → Gemini A
 
 ## Screenshot
 
-![Screenshot placeholder](https://via.placeholder.com/1200x700?text=AI+Chat+Assistant+with+Memory)
+![AI Chat Assistant with Memory screenshot](assets/screenshot.png)
 
 ## License
 

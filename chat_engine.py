@@ -1,5 +1,10 @@
-from langchain.chains import ConversationChain
-from langchain.memory import ConversationBufferWindowMemory
+try:
+    from langchain.chains import ConversationChain
+    from langchain.memory import ConversationBufferWindowMemory
+except (ImportError, TypeError):
+    from langchain_classic.chains import ConversationChain
+    from langchain_classic.memory import ConversationBufferWindowMemory
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 from config import GEMINI_API_KEY
